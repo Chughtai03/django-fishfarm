@@ -1,0 +1,394 @@
+{% load static %}
+<!DOCTYPE html>
+<!--[if IE 8 ]>
+<html class="no-js ie8" lang="en"> <![endif]-->
+<!--[if IE 9 ]>
+<html class="no-js ie9" lang="en"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!-->
+<html class="no-js" lang="en"> <!--<![endif]-->
+
+<!-- Mirrored from fishtank.html.themeplayers.net/FISHtank/login.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 27 May 2021 06:18:12 GMT -->
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="description" content="FishTank">
+    <meta name="author" content="CreateIT">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>FishTank</title>
+
+    <script src="../cdn-cgi/apps/head/sxN6HgCn8v7CG45Nsym8imDXilk.js"></script><link rel="shortcut icon" href="{%static 'fishfarm/images/icon.ico'%}">
+    <link rel="stylesheet" type="text/css" href="{%static 'fishfarm/css/bootstrap.css'%}">
+    <link rel="stylesheet" type="text/css" href="{%static 'fishfarm/css/style.css'%}">
+
+
+    <!--[if lt IE 9]>
+    <script src="./{%static 'fishfarm/bootstrap/js/html5shiv.min.js'%}"></script>
+    <script src="./{%static 'fishfarm/bootstrap/js/respond.min.js'%}"></script>
+    <![endif]-->
+
+    <script src="{%static 'fishfarm/js/modernizr.custom.js'%}"></script>
+
+</head>
+<body class="cssAnimate">
+
+<!-- :mobile Menu: -->
+<div class="ct-menuMobile">
+    <ul class="ct-menuMobile-navbar">
+        <li role="presentation" class="dropdown">
+            <a class="dropdown-toggle" href="#" role="button" aria-expanded="true">
+                Home <span class="caret ct-u-motiveBody"></span>
+            </a>
+            <ul class="dropdown-menu ct-dropdownMobile">
+                <li>
+                    <ul class="list-unstyled ct-dropdownMoblie-list">
+                        <li><a href="{% url 'home'%}">Home - Small Slider</a></li>
+
+                    </ul>
+                </li>
+            </ul>
+        </li>
+        <li role="presentation" class="dropdown">
+            <a class="dropdown-toggle" href="#" role="button" aria-expanded="true">
+                Pages <span class="caret ct-u-motiveBody"></span>
+            </a>
+            <ul class="dropdown-menu ct-dropdownMobile">
+                <li>
+                    <ul class="list-unstyled ct-dropdownMoblie-list">
+                        <li><a href="pricing.html">Pricing</a></li>
+                        <li><a href="faq.html">FAQ</a></li>
+                        <li><a href="our-team.html">Team</a></li>
+                        <li><a href="team-member.html">Team Member</a></li>
+                        <li><a href="404.html">404 Page</a></li>
+                        <li><a href="maintenance.html">Maintenance Page</a></li>
+                        <li><a href="testimonials.html">Testimonials</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="myAccount.html">My Account</a></li>
+                        <li><a href="login.html">Login</a></li>
+                        <li><a href="register.html">Register</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+        <li role="presentation" class="dropdown">
+            <a class="dropdown-toggle" href="#" role="button" aria-expanded="true">
+                Portfolio <span class="caret ct-u-motiveBody"></span>
+            </a>
+            <ul class="dropdown-menu ct-dropdownMobile">
+                <li>
+                    <ul class="list-unstyled ct-dropdownMoblie-list">
+                        <li><a href="portfolio-1column.html">Portfolio 1 Column</a></li>
+                        <li><a href="portfolio-2columns.html">Portfolio 2 Columns</a></li>
+                        <li><a href="portfolio-3columns.html">Portfolio 3 Columns</a></li>
+                        <li><a href="portfolio-masonry.html">Portfolio Masonry</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+        <li role="presentation" class="dropdown">
+            <a class="dropdown-toggle" href="#" role="button" aria-expanded="true">
+                Features <span class="caret"></span>
+            </a>
+            <ul class="dropdown-menu ct-dropdown-menu">
+                <li>
+                    <ul class="list-unstyled">
+                        <li><a href="features-grid.html"><i class="fa fa-fw fa-th"></i> Grid System</a></li>
+                        <li><a href="features-typography.html"><i class="fa fa-fw fa-font"></i> Typography</a></li>
+                        <li><a href="features-buttons.html"><i class="fa fa-fw fa-link"></i> Buttons</a></li>
+                        <li><a href="features-forms.html"><i class="fa fa-fw fa-align-justify"></i> Forms</a></li>
+                        <li><a href="features-tables.html"><i class="fa fa-fw fa-table"></i> Tables</a></li>
+                        <li><a href="features-p-sliders.html"><i class="fa fa-chevron-left"></i><i class="fa fa-chevron-right"></i> Sliders</a>
+                        </li>
+                        <li><a href="features-iconboxes.html"><i class="fa fa-fw fa-th-large"></i> Icon Boxes</a>
+                        </li>
+                        <li><a href="features-personboxes.html"><i class="fa fa-fw fa-users"></i> Person Boxes</a>
+                        </li>
+                        <li><a href="features-counters.html"><i class="fa fa-fw fa-plus"></i> Counters</a></li>
+                        <li><a href="features-toggable.html"><i class="fa fa-fw fa-toggle-on"></i> Toggables</a>
+                        <li><a href="features-charts.html"><i class="fa fa-fw fa-area-chart"></i> Charts</a></li>
+                        <li><a href="features-p-bars.html"><i class="fa fa-fw fa-bars"></i> Progress Bars</a></li>
+                        <li><a href="features-p-icons.html"><i class="fa fa-fw fa-star-half-full"></i> Progress
+                            Icons</a></li>
+                        <li><a href="features-lists.html"><i class="fa fa-fw fa-list"></i> Lists Simple</a></li>
+                        <li><a href="features-lists2.html"><i class="fa fa-fw fa-list"></i> Lists Icons</a></li>
+                        <li><a href="features-sections.html"><i class="fa fa-fw fa-navicon"></i> Sections</a></li>
+                        <li><a href="features-m-sections.html"><i class="fa fa-fw fa-play"></i> Media Sections</a>
+                        </li>
+                        <li><a href="features-developers.html"><i class="fa fa-fw fa-code"></i> For developers</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+
+        <li role="presentation" class="dropdown">
+            <a class="dropdown-toggle" href="#" role="button" aria-expanded="true">
+                Blog <span class="caret"></span>
+            </a>
+            <ul class="dropdown-menu ct-dropdown-menu">
+                <li>
+                    <ul class="list-unstyled">
+                        <li><a href="blog-single-post.html">Blog - Single Post</a></li>
+                        <li><a href="blog-grid.html">Blog - Grid</a></li>
+                        <li><a href="blog-left-sidebar.html">Blog - Left Sidebar</a></li>
+                        <li><a href="blog-right-sidebar.html">Blog - Right Sidebar</a></li>
+                        <li><a href="blog.html">Blog - Large Posts</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+        <li><a href="contact.html">Contact Us</a></li>
+    </ul>
+</div>
+
+<!--:mobile navbar: -->
+<div class="ct-navbarMobile">
+    <a class="navbar-brand" href="{% url 'home'%}"><img src="{%static 'fishfarm/images/logo.png'%}" alt="FISHtank"> </a>
+    <button type="button" class="navbar-toggle">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+    </button>
+</div>
+<div class="ct-navbarMobile ct-navbarMobile--header">
+    <a href="{% url 'login'%}">My Account</a>
+
+</div>
+
+<!--:wrapper: -->
+<div id="ct-js-wrapper" class="ct-pageWrapper">
+
+<!-- :navbar: -->
+<nav class="navbar ct-navbar navbar-default yamm ct-navbar--fadeIn" role="navigation">
+    <div class="container">
+
+        <div class="ct-navbarContainer">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="{% url 'home'%}"><img id="ct-js-logo"
+                        src="{%static 'fishfarm/images/logotext.png'%}" alt="FISHtank"></a> <!--  +  -->
+            </div>
+
+            <ul class="nav navbar-nav">
+                <li><a href="{% url 'home'%}">Home</a></li>
+                <li><a href="{% url 'about'%}">About</a></li>
+                <li role="presentation" class="dropdown">
+                    <a class="dropdown-toggle" href="{% url 'home'%}" role="button" aria-expanded="true">
+                        Pages <span class="caret"></span>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li>
+
+                            <div class="yamm-content">
+                                <div class="row">
+
+                                    <div class="col-sm-12">
+                                        <div class="row">
+                                            <div class="col-sm-6">
+                                                <h5 class="text-uppercase ct-fw-600 ct-menu-header">Pages</h5>
+                                                <ul class="list-unstyled ct-u-borderRightGrayLighter">
+
+                                                    <li><a href="{% url 'about'%}">About Us</a></li>
+                                                    <li><a href="{% url 'ourteam'%}">Team</a></li>
+                                                    <li><a href="{% url 'team'%}">Team Member</a></li>
+                                                    <li><a href="{% url 'error'%}">404 Page</a></li>
+                                                    <li><a href="{% url 'myaccount'%}">My Account</a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="col-sm-6">
+                                                <h5
+                                                    class="text-uppercase ct-fw-600 ct-menu-header ct-u-visibilityHidden">
+                                                    Header </h5>
+                                                <ul class="list-unstyled ct-u-borderRightGrayLighter">
+                                                    <li><a href="{% url 'pricing'%}">Pricing</a></li>
+                                                    <li><a href="{% url 'services'%}">Services</a></li>
+                                                    <li><a href="{% url 'maintenance'%}">Maintenance Page</a></li>
+                                                    <li><a href="{% url 'login'%}">Login</a></li>
+                                                    <li><a href="{% url 'register'%}">Register</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </li>
+                <li role="presentation" class="dropdown">
+                    <a class="dropdown-toggle" href="#" role="button" aria-expanded="true">
+                        Features <span class="caret"></span>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li>
+                            <div class="yamm-content">
+                                <h5 class="text-uppercase ct-fw-600 ct-menu-header">Features
+                                    <small>We packed FISHtank with everything in mind!</small>
+                                </h5>
+                                <div class="row">
+                                    <div class="col-sm-12 ct-yammInner">
+                                        <ul class="list-unstyled ct-u-borderRightGrayLighter">
+
+                                            <li><a href="{% url 'button'%}"><i class="fa fa-fw fa-link"></i>
+                                                    Buttons</a></li>
+                                            <li><a href="{% url 'form'%}"><i
+                                                        class="fa fa-fw fa-align-justify"></i> Forms</a></li>
+                                            <li><a href="{% url 'table'%}"><i class="fa fa-fw fa-table"></i>
+                                                    Tables</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </li>
+
+                <li><a href="{% url 'contact'%}">Contact Us</a></li>
+            </ul>
+
+            <ul class="nav navbar-nav yamm ct-navbar--right">
+                <li><a href="{% url 'login'%}">My Account</a></li>
+
+            </ul>
+        </div>
+
+    </div>
+</nav>
+<!--:header: -->
+<header class="ct-headerMotive">
+    <div class="container">
+        <p class="text-uppercase"><a href="{% url 'home'%}">Home</a><i class="fa fa-chevron-right"></i>Login</p>
+    </div>
+</header>
+
+<section class="ct-u-paddingBottom80">
+    <div class="container">
+        <div class="ct-sectionHeader ct-u-paddingBottom20">
+            <h2>Login</h2>
+        </div>
+        <div class="row">
+            <div class="col-xs-offset-1 col-xs-10">
+
+                <div class="form-group">
+                    <label>Username or Email Address<span>*</span></label>
+                    <input required  type="text" class="form-control" placeholder="">
+                </div>
+
+                <div class="form-group">
+                    <label>Password<span>*</span></label>
+                    <input required  type="password" class="form-control" placeholder="">
+                </div>
+
+                <div class="form-group">
+                    <input type="checkbox"><label class="ct-checkbox">Remember me</label>
+                    <a href="#" class="pull-right"><span>Lost Your Password?</span></a>
+                </div>
+
+                <a class="btn btn-motive"><span>Login Now</span></a>
+
+            </div>
+        </div>
+
+    </div>
+</section>
+
+
+
+
+
+
+<!-- ct class needed for background img  - logoslider - -->
+
+
+<section class="ct-u-motiveDark--bg ct-u-paddingBoth50">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-3 col-xs-12">
+                <div class="ct-list ct-list--dark">
+                    <h5 class="text-uppercase ct-fw-600 ct-u-motiveBody">Information</h5>
+                    <ul class="ct-u-paddingTop10">
+                        <li><a href="#"><div class="ct-listTable"><div class="ct-ListDiamond"><i class="fa fa-chevron-right"></i></div></div><span>Specials</span></a></li>
+                        <li><a href="#"><div class="ct-listTable"><div class="ct-ListDiamond"><i class="fa fa-chevron-right"></i></div></div><span>New products</span></a></li>
+                        <li><a href="#"><div class="ct-listTable"><div class="ct-ListDiamond"><i class="fa fa-chevron-right"></i></div></div><span>Best Sellers</span></a></li>
+                        <li><a href="#"><div class="ct-listTable"><div class="ct-ListDiamond"><i class="fa fa-chevron-right"></i></div></div><span>Most Top Rated</span></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-sm-3 col-xs-12">
+                <div class="ct-list ct-list--dark">
+                    <h5 class="text-uppercase ct-fw-600 ct-u-motiveBody">My Account</h5>
+                    <ul class="ct-u-paddingTop10">
+                        <li><a href="#"><div class="ct-listTable"><div class="ct-ListDiamond"><i class="fa fa-chevron-right"></i></div></div><span>My Orders</span></a></li>
+                        <li><a href="#"><div class="ct-listTable"><div class="ct-ListDiamond"><i class="fa fa-chevron-right"></i></div></div><span>My Personal Info</span></a></li>
+                        <li><a href="#"><div class="ct-listTable"><div class="ct-ListDiamond"><i class="fa fa-chevron-right"></i></div></div><span>My Account</span></a></li>
+                        <li><a href="#"><div class="ct-listTable"><div class="ct-ListDiamond"><i class="fa fa-chevron-right"></i></div></div><span>My Addresses</span></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-sm-3 col-xs-12">
+                <div class="ct-list ct-list--dark">
+                    <h5 class="text-uppercase ct-fw-600 ct-u-motiveBody">Follow Us</h5>
+                    <ul class="ct-u-paddingTop10">
+                        <li><a href="https://www.facebook.com/createITpl"><div class="ct-listTable"><div class="ct-ListDiamond"><i class="fa fa-facebook"></i></div></div><span>Facebook</span></a></li>
+                        <li><a href="https://twitter.com/createitpl"><div class="ct-listTable"><div class="ct-ListDiamond"><i class="fa fa-twitter"></i></div></div><span>Twitter</span></a></li>
+                        <li><a href="#"><div class="ct-listTable"><div class="ct-ListDiamond"><i class="fa fa-rss"></i></div></div><span>RSS</span></a></li>
+                        <li><a href="#"><div class="ct-listTable"><div class="ct-ListDiamond"><i class="fa fa-linkedin"></i></div></div><span>Linkedin</span></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-sm-3 col-xs-12">
+                <div class="ct-list ct-list--dark">
+                    <h5 class="text-uppercase ct-fw-600 ct-u-motiveBody">Contact Us</h5>
+                    <ul class="ct-u-paddingTop10">
+                        <li><div class="ct-listTable"><div class="ct-ListDiamond"><i class="fa fa-home"></i></div></div><span>Street Name, Number 1234, Somewhere, Nowhere</span></li>
+                        <li><div class="ct-listTable"><div class="ct-ListDiamond"><i class="fa fa-phone"></i></div></div><span>(012) 345-6789</span></li>
+                        <li><a href="#"><div class="ct-listTable"><div class="ct-ListDiamond"><i class="fa fa-envelope"></i></div></div><span>info @ fishtanksupport.com</span></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Scroll Up Button -->
+<a class="ct-ScrollUpButton ct-js-btnScrollUp" href="#"><span class="ct-ScrollUpButton--motive"><i class="fa fa-angle-up"></i></span></a>
+
+<!-- footer -->
+<footer class="ct-u-motiveDark2--bg">
+    <div class="container">
+        <a href="http://outsourcing.createit.pl/"><p class="ct-u-motiveDark ct-u-paddingBoth10 ct-u-size14 ct-fw-600">COPYRIGHT © createIT 2014</p></a>
+    </div>
+</footer>
+
+</div>
+
+<!-- JavaScripts -->
+
+<script src="{%static 'fishfarm/js/jquery.min.js'%}"></script>
+<script src="{%static 'fishfarm/bootstrap/js/bootstrap.min.js'%}"></script>
+<script src="{%static 'fishfarm/js/jquery.easing.1.3.js'%}"></script>
+<script src="{%static 'fishfarm/js/device.min.js'%}"></script>
+<script src="{%static 'fishfarm/js/snap.min.js'%}"></script>
+
+<script src="{%static 'fishfarm/js/logos/logo-FISHtank.js'%}"></script><script src="{%static 'fishfarm/js/main.js'%}"></script>
+
+<script src="{%static 'fishfarm/js/flexslider/jquery.flexslider-min.js'%}"></script>
+<script src="{%static 'fishfarm/js/flexslider/init.js'%}"></script>
+
+<script src="{%static 'fishfarm/js/less.min.js'%}"></script>
+
+<!-- switcher -->
+<script src="../demo/js/demo.js"></script>
+<script type="text/javascript">
+    $('head').append('<link rel="stylesheet" type="text/css" href="../demo/css/demo.css">');
+    $('head').append('<link rel="stylesheet" type="text/css" href="http://fishtank.html.themeplayers.net/demo/generator.php">');
+</script>
+
+<!--<link rel="stylesheet" type="text/css" href="../demo/css/demo.css">-->
+<!--<link rel="stylesheet" type="text/css" href="../demo/generator.php">-->
+
+<!-- end switcher -->
+</body>
+
+<!-- Mirrored from fishtank.html.themeplayers.net/FISHtank/login.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 27 May 2021 06:18:12 GMT -->
+</html>
